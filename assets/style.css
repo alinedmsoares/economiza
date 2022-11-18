@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* index */
+
+.index {
+    height: 100vh;
+    background: linear-gradient(#FBD72B, #F15B25, #F9484A);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 40%;
+}
+
+.image {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-primary {
+    background-color: #F19F25 !important;
+    padding: 10px;
+    border-radius: 10px;
+    border: none !important;
+    margin-top: 2%;
+    cursor: pointer;
+    transition: 0.4s;
+    display: flex;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.btn-primary a {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #fbc02b !important;
+}
+
+
+/* new */
+
+.new {
+    background: linear-gradient(#FBD72B, #F15B25, #F9484A);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+form {
+    background-color: #FEFEFE;
+    width: 70%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.form-group {
+    margin-top: 2%;
+}
+
+
+/* list */
+
+.list {
+    background: linear-gradient(#FBD72B, #F15B25, #F9484A);
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 5%;
+    min-height: 100vh;
+}
+
+.table {
+    background-color: #FEFEFE !important;
+    margin-top: 2%;
+}
+
+.list .btn-primary {
+    background-color: #F9484A !important;
+    padding: 10px;
+    border-radius: 10px;
+    border: none !important;
+    margin-top: 2%;
+    cursor: pointer;
+    transition: 0.4s;
+    display: flex;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.list .btn-primary a {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    width: 100%;
+}
+
+.list .btn-primary:hover {
+    background-color: #fbc02b !important;
+}

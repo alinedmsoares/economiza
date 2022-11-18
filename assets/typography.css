@@ -1,0 +1,15 @@
+* {
+    font-family: 'Segoe UI';
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.color-white {
+    color: white;
+}
+
+.f-size-g {
+    font-size: 2em;
+}

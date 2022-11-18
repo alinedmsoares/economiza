@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo estabelecimento | Economiza</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/typography.css">
+    <script src="new.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <main class="new">
+        <form onsubmit="newEstablishment(event)">
+            <h1>Novo estabelecimento</h1>
+            <div class="form-group">
+                <input type="text" class="form-control" id="cnpj" aria-describedby="cnpjHelp" placeholder="CNPJ" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="nome" placeholder="Nome do estabelecimento" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="logradouro" placeholder="Logradouro" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="numero" placeholder="Número" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="cidade" placeholder="Cidade" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="cep" placeholder="CEP" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Salvar</button>
+        </form>
+    </main>
+
+</body>
+
+</html>
