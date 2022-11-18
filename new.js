@@ -30,7 +30,7 @@ function newEstablishment(event) {
         .then(function(res) {
             res.json()
             alert("Estabelecimento cadastrado com sucesso!")
-            window.location.replace("./list.html");
+            window.location.replace("list.html");
         })
         .catch(function(res) {
             console.log(res)
