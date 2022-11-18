@@ -25,6 +25,10 @@
     justify-content: center;
 }
 
+.index .btn-primary {
+    width: 80%;
+}
+
 .btn-primary {
     background-color: #F19F25 !important;
     padding: 10px;
